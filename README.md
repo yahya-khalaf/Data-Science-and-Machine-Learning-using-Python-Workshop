@@ -1,146 +1,160 @@
-# **Data Science and Machine Learning using Python Workshop**
+# Data Science and Machine Learning using Python Workshop
 
-Welcome to the **Data Science and Machine Learning using Python Workshop** repository! This repository contains all the course materials, including Jupyter notebooks, for a comprehensive workshop on data science and machine learning using Python. Each topic is covered in detail with practical examples and hands-on exercises.
+Welcome to the **Data Science and Machine Learning using Python Workshop** repository! This repository contains all the course materials, including Jupyter notebooks, datasets, and resources, to help you learn and practice data science and machine learning concepts using Python.
 
 ---
 
 ## **Course Overview**
-This workshop is designed to provide a solid foundation in **data science** and **machine learning** using Python. It covers everything from basic data manipulation and visualization to advanced machine learning algorithms and techniques. The course is divided into lessons, each accompanied by a Jupyter notebook for interactive learning.
+This workshop is designed to provide a comprehensive introduction to **Data Science** and **Machine Learning** using Python. The course is divided into two main sections:
 
----
+1. **Python for Data Science**: Covers foundational topics like data manipulation, visualization, and statistical analysis using Python libraries such as NumPy, Pandas, and Matplotlib.
+2. **Machine Learning using Python**: Focuses on machine learning concepts, including data preprocessing, model building, evaluation, and advanced techniques like clustering and recommender systems.
 
-## **Topics Covered**
-The workshop is divided into the following modules:
-
-### **1. Python for Data Science**
-- **Data Science Overview**
-- **Data Analytics Overview**
-- **Statistical Analysis and Business Applications**
-- **Read and Write Data to Files**
-- **Data Pickling**
-
-### **2. Data Science with Python**
-- **Mathematical Computing with Python (NumPy)**
-  - Vectors and Arrays
-  - Matrix Multiplication and Dot Product
-  - Matrix Transpose and Inverse Matrix
-  - Statistical Operations on Arrays
-- **Scientific Computing with Python (SciPy)**
-
-### **3. Data Manipulation with Pandas**
-- **Pandas Series and DataFrames**
-- **Statistical Analysis using Pandas**
-- **Data Cleaning Using Pandas**
-- **Dummy and Categorical Data**
-- **Read and Write to CSV and Excel Files**
-
-### **4. Data Visualization in Python using Matplotlib**
-- **Line, Bar, and Scatter Plots**
-- **Histogram Graphs**
-
-### **5. Machine Learning using Python**
-- **Introduction to Artificial Intelligence and Machine Learning**
-- **Data Preprocessing**
-  - Feature Scaling
-  - Handling Missing Data
-  - Dummy Variables
-  - Handling Imbalanced Data
-- **Feature Engineering**
-  - Backward Elimination
-  - Forward Elimination
-- **Model Validation**
-- **Principle Component Analysis (PCA)**
-
-### **6. Supervised Learning Methods**
-- **Linear Regression**
-- **Regression Metrics - RMSE, R², and AIC**
-- **Logistic Regression**
-- **Classification Metrics - Confusion Matrix, ROC, and AUC**
-- **Naive Bayes**
-- **Decision Trees**
-- **Ensemble Learning**
-  - Random Forest
-  - Gradient Boost, XGBoost, and LightGBM
-
-### **7. Unsupervised Learning Methods**
-- **K-means Clustering**
-- **Hierarchical Clustering**
-- **Gaussian Mixture Model (GMM)**
-
-### **8. Recommender Systems**
-- **Content-Based Recommenders**
-- **Knowledge-Based Recommenders**
-- **Collaborative Filter-Based Recommenders**
+Each topic is accompanied by a hands-on lab in the form of a Jupyter notebook, along with relevant datasets for practice.
 
 ---
 
 ## **Repository Structure**
 The repository is organized as follows:
+
 ```
-Data-Science-ML-Workshop/
-├── 1_Python_for_Data_Science/
-│   ├── Data_Science_Overview.ipynb
-│   ├── Data_Analytics_Overview.ipynb
-│   └── ...
-├── 2_Data_Science_with_Python/
-│   ├── NumPy_Vectors_and_Arrays.ipynb
-│   ├── NumPy_Matrix_Multiplication.ipynb
-│   └── ...
-├── 3_Data_Manipulation_with_Pandas/
-│   ├── Pandas_Series_and_DataFrames.ipynb
-│   ├── Statistical_Analysis_with_Pandas.ipynb
-│   └── ...
-├── 4_Data_Visualization_with_Matplotlib/
-│   ├── Line_Bar_Scatter_Plots.ipynb
-│   └── Histogram_Graphs.ipynb
-├── 5_Machine_Learning/
-│   ├── Data_Preprocessing.ipynb
-│   ├── Feature_Engineering.ipynb
-│   └── ...
-├── 6_Supervised_Learning/
-│   ├── Linear_Regression.ipynb
-│   ├── Logistic_Regression.ipynb
-│   └── ...
-├── 7_Unsupervised_Learning/
-│   ├── KMeans_Clustering.ipynb
-│   ├── Hierarchical_Clustering.ipynb
-│   └── ...
-├── 8_Recommender_Systems/
-│   ├── Content_Based_Recommenders.ipynb
-│   ├── Collaborative_Filtering.ipynb
-│   └── ...
-└── README.md
+.
+├── Machine Learning using Python
+│   ├── 18_Data_Preprocessing
+│   │   ├── Data Preprocessing_lab2.ipynb
+│   │   ├── gender_submission.csv
+│   │   ├── test.csv
+│   │   └── train.csv
+│   ├── 19_Feature_Scaling
+│   │   ├── Feature Scaling_lab2.ipynb
+│   │   └── Social_Network_Ads.xls
+│   ├── ... (other machine learning topics)
+│
+├── Python for Data Science
+│   ├── 01_Read and Write Data to Files
+│   │   ├── file_1.txt
+│   │   ├── oil_Field_1.xls
+│   │   ├── oil_Field.csv
+│   │   ├── oil_Field.json
+│   │   └── Read and Write Data to Files_lab2.ipynb
+│   ├── 02_Data_Pickling
+│   │   ├── Data Pickling_lab2.ipynb
+│   │   ├── North_Sea_Oil_Field.json
+│   │   ├── North_Sea_Oil_Field.pkl
+│   │   ├── oil_wells.csv
+│   │   └── oil_wells.pkl
+│   ├── ... (other data science topics)
+│
+└── requirements.txt
 ```
 
 ---
 
-## **How to Use This Repository**
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/Data-Science-ML-Workshop.git
-   ```
-2. **Navigate to the Desired Lesson**:
-   ```bash
-   cd Data-Science-ML-Workshop/1_Python_for_Data_Science/
-   ```
-3. **Open the Jupyter Notebook**:
-   ```bash
-   jupyter notebook Data_Science_Overview.ipynb
-   ```
-4. **Install Dependencies**:
-   Ensure you have the required Python libraries installed. You can install them using:
-   ```bash
-   pip install numpy pandas matplotlib scikit-learn scipy
-   ```
+## **Getting Started**
+To get started with the course materials, follow these steps:
+
+### **1. Clone the Repository**
+Clone this repository to your local machine using the following command:
+```bash
+git clone https://github.com/your-username/data-science-ml-workshop.git
+cd data-science-ml-workshop
+```
+
+### **2. Set Up the Environment**
+Install the required Python libraries by running:
+```bash
+pip install -r requirements.txt
+```
+
+### **3. Launch Jupyter Notebook**
+Start Jupyter Notebook to access the course materials:
+```bash
+jupyter notebook
+```
+
+Navigate to the desired topic folder and open the corresponding `.ipynb` file to begin.
+
+---
+
+## **Course Topics**
+### **Python for Data Science**
+1. **Read and Write Data to Files**
+2. **Data Pickling**
+3. **Data Science with Python**
+4. **Mathematical Computing with Python (NumPy)**
+5. **Vectors and Arrays**
+6. **Matrix Multiplication and Dot Product**
+7. **Matrix Transpose and Inverse Matrix**
+8. **Scientific Computing with Python (SciPy)**
+9. **Data Manipulation with Pandas**
+10. **Pandas Series and Data Frames**
+11. **Statistical Analysis using Pandas**
+12. **Data Cleaning Using Pandas**
+13. **Read and Write to CSV and Excel Files**
+14. **Data Visualization in Python using Matplotlib**
+15. **Line, Bar, and Scatter Plots**
+16. **Histogram Graphs**
+
+### **Machine Learning using Python**
+1. **Data Preprocessing**
+2. **Feature Scaling**
+3. **Handling Missing Data**
+4. **Dummy Variables**
+5. **Handling Imbalanced Data**
+6. **Feature Engineering**
+7. **Backward Elimination**
+8. **Forward Elimination**
+9. **Model Validation**
+10. **Principal Component Analysis (PCA)**
+11. **Linear Regression**
+12. **Regression Metrics (RMSE, R², and AIC)**
+13. **Logistic Regression**
+14. **Classification Metrics (Confusion Matrix, ROC, and AUC)**
+15. **Naive Bayes**
+16. **Decision Trees**
+17. **Ensemble Learning**
+18. **Random Forests**
+19. **Gradient Boost, XGBoost, and LightGBM**
+20. **K-Means Clustering**
+21. **Hierarchical Clustering**
+22. **Gaussian Mixture Models (GMM)**
+23. **Content-Based Recommenders**
+24. **Knowledge-Based Recommenders**
+25. **Collaborative Filter-Based Recommenders**
+
+---
+
+## **Requirements**
+The required Python libraries are listed in `requirements.txt`. You can install them using:
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 ## **Contributing**
-If you'd like to contribute to this repository, feel free to open a pull request. Please ensure your contributions align with the course structure and include clear documentation.
+If you’d like to contribute to this repository (e.g., by fixing issues, adding new topics, or improving documentation), feel free to open a **pull request**. Your contributions are welcome!
 
 ---
 
+## **License**
+This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the materials for educational purposes.
 
+---
 
 ## **Acknowledgements**
-Special thanks to all the contributors and learners who have made this workshop possible. Your feedback and participation are greatly appreciated!
+Special thanks to all the contributors and educators who helped create and refine these materials. Your efforts have made this workshop possible!
+
+---
+
+## **Contact**
+For questions or feedback, feel free to reach out:
+- **Email**: [your-email@example.com]
+- **LinkedIn**: [Your LinkedIn Profile]
+- **GitHub**: [Your GitHub Profile]
+
+---
+
+Happy learning! 🚀
+
+---
