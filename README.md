@@ -56,8 +56,7 @@ To get started with the course materials, follow these steps:
 ### **1. Clone the Repository**
 Clone this repository to your local machine using the following command:
 ```bash
-git clone https://github.com/your-username/data-science-ml-workshop.git
-cd data-science-ml-workshop
+git clone https://github.com/yahya-khalaf/Data-Science-and-Machine-Learning-using-Python-Workshop.git
 ```
 
 ### **2. Set Up the Environment**
@@ -137,11 +136,6 @@ If you’d like to contribute to this repository (e.g., by fixing issues, adding
 
 ---
 
-## **License**
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the materials for educational purposes.
-
----
-
 ## **Acknowledgements**
 Special thanks to all the contributors and educators who helped create and refine these materials. Your efforts have made this workshop possible!
 
@@ -149,10 +143,9 @@ Special thanks to all the contributors and educators who helped create and refin
 
 ## **Contact**
 For questions or feedback, feel free to reach out:
-- **Email**: [your-email@example.com]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-
+- **Email**: [yahya.khalaf54@gmail.com]
+- **LinkedIn**: [https://www.linkedin.com/in/yahya-khalaf54/]
+- 
 ---
 
 Happy learning! 🚀
