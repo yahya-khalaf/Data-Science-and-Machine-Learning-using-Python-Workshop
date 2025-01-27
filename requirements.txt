@@ -1,0 +1,59 @@
+# Core Data Science Libraries
+numpy==1.26.0              # Numerical computations
+pandas==2.1.1              # Data manipulation and analysis
+scipy==1.11.2              # Scientific computing and advanced math
+
+# Data Visualization
+matplotlib==3.7.2          # Basic plotting
+seaborn==0.12.2            # Statistical visualizations
+plotly==5.15.0             # Interactive visualizations
+
+# Machine Learning
+scikit-learn==1.3.0        # Machine learning algorithms
+xgboost==2.0.0             # Gradient boosting framework
+lightgbm==4.0.0            # Lightweight gradient boosting
+catboost==1.2.0            # Gradient boosting with categorical data support
+
+# Deep Learning
+tensorflow==2.13.0         # Deep learning framework
+keras==2.13.1              # High-level neural networks API
+torch==2.0.1               # PyTorch for deep learning
+torchvision==0.15.2        # Datasets and models for computer vision
+torchaudio==2.0.2          # Audio processing with PyTorch
+
+# Natural Language Processing (NLP)
+nltk==3.8.1                # Natural Language Toolkit
+spacy==3.6.1               # Industrial-strength NLP
+transformers==4.33.2       # State-of-the-art NLP models (e.g., BERT, GPT)
+
+# Data Processing and Feature Engineering
+pandas-profiling==3.6.6    # Automated EDA reports
+featuretools==1.24.0       # Automated feature engineering
+
+# Optimization and Hyperparameter Tuning
+optuna==3.3.0              # Hyperparameter optimization
+hyperopt==0.2.7            # Distributed hyperparameter optimization
+
+# Model Interpretability
+shap==0.42.1               # Explainable AI (SHapley Additive exPlanations)
+lime==0.2.0.1              # Local Interpretable Model-agnostic Explanations
+
+# Big Data and Distributed Computing
+pyspark==3.4.1             # Apache Spark for big data processing
+dask==2023.8.1             # Parallel computing with larger-than-memory datasets
+
+# Web Scraping and APIs
+requests==2.31.0           # HTTP requests
+beautifulsoup4==4.12.2     # Web scraping
+scrapy==2.10.0             # Web crawling framework
+
+# Database and Data Storage
+sqlalchemy==2.0.20         # SQL toolkit and ORM
+pymongo==4.5.0             # MongoDB driver
+
+# Utilities and Miscellaneous
+tqdm==4.66.0               # Progress bars for loops
+joblib==1.3.2              # Lightweight pipelining
+ipython==8.15.0            # Interactive Python shell
+jupyter==1.0.0             # Jupyter Notebook/Lab
+jupyterlab==4.0.5          # JupyterLab interface
